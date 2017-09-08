@@ -39,8 +39,8 @@ public class TestASynctask extends AsyncTask<String, Integer, String> {
         super.onPreExecute();
 
         Log.d(TAG, "onPreExecute: "+ Thread.currentThread());
-    }
 
+    }
 
 
 
